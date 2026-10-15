@@ -1,0 +1,61 @@
+{
+  "name": "Dawen — Personal Productivity Hub",
+  "short_name": "Dawen",
+  "description": "دَوِن — your personal productivity hub: tasks, goals, habits, daybook, expenses, notes, and College Hub in one place.",
+  "id": ".",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f1e7",
+  "theme_color": "#c2553b",
+  "lang": "ar",
+  "dir": "auto",
+  "categories": ["productivity", "education", "utilities"],
+  "icons": [
+    {
+      "src": "pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daybook",
+      "short_name": "Daybook",
+      "url": "./daybook",
+      "icons": [{ "src": "pwa-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tasks",
+      "short_name": "Tasks",
+      "url": "./tasks",
+      "icons": [{ "src": "pwa-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "College Hub",
+      "short_name": "College",
+      "url": "./college",
+      "icons": [{ "src": "pwa-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Expenses",
+      "short_name": "Expenses",
+      "url": "./expenses",
+      "icons": [{ "src": "pwa-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
